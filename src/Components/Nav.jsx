@@ -9,7 +9,6 @@ function Nav() {
     
         <div className={styles.navLogo}>
             <Logo/>
-            {/* <img src={"/Globel.jpg"} styl   e={{height:"50px"}} alt=''/> */}
         </div>
   
         <ul className={styles.ul} >

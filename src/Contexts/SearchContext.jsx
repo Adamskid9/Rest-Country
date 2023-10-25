@@ -5,7 +5,7 @@ const Searched = createContext();
 function SearchContext({children}) {
     const [searchByName,setSearchByName] = useState("");
 
-    console.log(searchByName,"content")
+    console.log(searchByName,"content");
 
     return <Searched.Provider value={{
         setSearchByName,

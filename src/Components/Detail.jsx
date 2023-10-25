@@ -32,7 +32,7 @@ function Detail() {
 
 if (!persist) return <Spinner/>
 
-const {population,timezones:[zones],subregion,area,status,capital:[capita],flags:{png},continents:[continent],region,borders,currencies,independent,name:{common}} = persist[0];
+const {population,timezones:[zones],subregion,area,status,capital:[capita],flags:{png},region,currencies,independent,name:{common}} = persist[0];
 
 
 const currency = currencies?.EUR||currencies?.USD||

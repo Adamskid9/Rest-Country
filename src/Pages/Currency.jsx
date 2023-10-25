@@ -4,8 +4,8 @@ import { useCurrency } from "../Contexts/CurrencyContext";
 
 import Nav from "../Components/Nav";
 import Footer from "../Components/Footer";
-import Select from "../Components/Select";
 import SmallSpinner from "../Components/SmallSpinner"
+import SelectConvert from '../Components/SelectConvert';
 
 
 
@@ -13,6 +13,7 @@ function Currency() {
 const {to,from,setFrom,setTo,setAmount,amount,reqData,isLoading} = useCurrency(); 
 
 
+ 
     return (
         <div style={{display:"flex",flexDirection:"column"}}>
 
@@ -31,12 +32,12 @@ const {to,from,setFrom,setTo,setAmount,amount,reqData,isLoading} = useCurrency()
             <div className={styles.select_contain}>
               <div className={styles.from}>
               <label>From:</label>
-               <Select setValue={setFrom} value={from} />
+               <SelectConvert setValue={setFrom} value={from} />
               </div>
 
              <div className={styles.to}>
              <label>To:</label>
-                <Select setValue={setTo} value={to}/>
+                <SelectConvert setValue={setTo} value={to}/>
              </div>
 
             </div>

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function CountryList({data}) {
     const {countries} = useCountries();
-    const {select,setSelect} = useDetail("");
+    const {setSelect} = useDetail("");
 
     
     const {flags,name} = data;
