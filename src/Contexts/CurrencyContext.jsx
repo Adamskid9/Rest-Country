@@ -26,7 +26,7 @@ const [reqData,setReqData] = useState(0);
 
         const req = await fetch(`https://api.frankfurter.app/latest?amount=${Number(amount)}&from=${from}&to=${to}`,
         {signal:controller.signal});
-  console.log(req)
+
         if (!req.ok) throw new Error ("this is not found");
         const data= await req.json()
 

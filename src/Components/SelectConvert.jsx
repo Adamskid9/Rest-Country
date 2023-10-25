@@ -1,4 +1,5 @@
-import styles from './SelectConvert.module.css'
+import styles from './SelectConvert.module.css';
+
 import useCountry from '../Hooks/useCountry';
 
 

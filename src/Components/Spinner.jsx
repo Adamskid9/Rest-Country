@@ -1,4 +1,4 @@
-import "./Spinner.css"
+import "./Spinner.css";
 
 function Spinner() {
 
@@ -12,7 +12,8 @@ function Spinner() {
 
         </div>
     </div> 
-    </div>              
+    </div>           
+
 }
 
 export default Spinner;
