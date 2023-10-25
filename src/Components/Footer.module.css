@@ -1,0 +1,41 @@
+.footer{
+    background-image: linear-gradient(to bottom left,rgba(47, 47, 119, 0.027),#89a6d1);
+    align-self: center;
+
+    margin-top: 1rem;
+
+    padding: 1.5rem;
+
+    font-size: var(--medium-fontSize);
+    font-weight: 800;
+
+    text-transform: uppercase;
+    color: #f1f1f1;
+
+    border-radius: .5rem;
+
+    border-left: 1rem solid #282b2f25;
+    border-right: 1rem solid rgba(0, 0, 255, 0.623);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 4px black;
+
+
+}
+
+
+.owner{
+    margin-left: .3rem;
+    color:grey;
+    text-shadow: 2px 2px 4px black;
+}
+
+
+/* media queries */
+@media only screen and (max-width:500px){
+ .footer{
+    font-size: var(--small-fontSize);
+ }
+}

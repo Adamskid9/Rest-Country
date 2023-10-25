@@ -1,0 +1,27 @@
+.error{
+    background-image: linear-gradient(to top left, rgb(13, 13, 48),rgb(92, 46, 46),black);
+    height: 100vh;
+    position: relative;
+}
+
+.container{
+    height: 50vh;
+    width: 50%;
+    background-color: #f1f1f1ad;
+
+    position:absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: var(--big-fontSize);
+    text-transform: uppercase;
+    color: #f1f1f1;
+
+    border-radius: 1rem;
+}

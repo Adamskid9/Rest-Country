@@ -1,0 +1,19 @@
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex: 0 0 100%;
+    
+    flex-wrap: wrap;
+
+}
+
+.country{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+

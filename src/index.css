@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --big-fontSize:2rem;
+  --medium-fontSize:1.6rem;
+  --small-fontSize:1.4rem
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-image: linear-gradient( to bottom right, rgb(63, 70, 63), rgba(0, 0, 255, 0.808),rgba(0, 0, 0, 0.89));
+  background-repeat: no-repeat;
+  padding: 1.5rem;
+  
+}
+

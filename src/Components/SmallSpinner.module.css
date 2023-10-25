@@ -1,0 +1,23 @@
+.spinner{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 6px dotted rgb(68, 87, 87);
+    border-right: 6px dotted #a38e8e  ;
+    border-top: 6px dotted rgba(128, 128, 128, 0.438);
+
+    animation-name: loader;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes loader{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

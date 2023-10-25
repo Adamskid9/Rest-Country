@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 2rem;
+
+
+}
+
+.value{
+    border: 2px solid transparent;
+    outline: 2px solid transparent;
+
+    height: 4rem;
+    width: 50%;
+
+    border-radius: .5rem;
+    padding: .7rem;
+
+    font-size: var(--medium-fontSize);
+
+}
+
+@media only screen and (max-width:800px){
+.value{
+   width: 70%;
+   height: 3rem;
+}
+
+}
+@media only screen and (max-width:450px){
+.value{
+  font-size:var(--small-fontSize) ;
+}
+
+}
+
