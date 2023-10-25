@@ -6,7 +6,7 @@ import Spinner from "./Components/BigSpinner";
 
 
 const Home = lazy(()=>import("./Pages/Home"));
-const Currency = lazy(()=>import("./Pages/Currency"));
+const Currency = lazy(()=>import("./Pages/ConvertCurrency"));
 const Detail = lazy(()=>import("./Components/Detail"));
 const CountryItem = lazy(()=>import("./Components/CountryItem"));
 const ErrorPage= lazy(()=>import("./Pages/ErrorPage"));

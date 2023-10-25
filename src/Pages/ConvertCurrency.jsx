@@ -1,4 +1,4 @@
-import styles from './Currency.module.css'
+import styles from './ConvertCurrency.module.css'
 
 import { useCurrency } from "../Contexts/CurrencyContext";
 
