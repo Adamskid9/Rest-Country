@@ -3,7 +3,7 @@ import CountryList from "./CountryList";
 
 import styles from './CountryItem.module.css'
 import { useSearch } from "../Contexts/SearchContext";
-import Spinner from "./Spinner";
+import Spinner from "./BigSpinner";
 import Footer from "./Footer";
 
 

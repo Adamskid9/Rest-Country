@@ -2,7 +2,7 @@ import { Suspense, lazy } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Nav from "./Components/Nav";
 import Search from "./Components/Search";
-import Spinner from "./Components/Spinner";
+import Spinner from "./Components/BigSpinner";
 
 
 const Home = lazy(()=>import("./Pages/Home"));

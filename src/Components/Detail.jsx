@@ -2,7 +2,7 @@ import styles from './Detail.module.css';
 
 import { useNavigate, useSearchParams } from "react-router-dom";
 
-import Spinner from "./Spinner";
+import Spinner from "./BigSpinner";
 import { useEffect, useState } from 'react';
 import Footer from './Footer';
 
