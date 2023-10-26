@@ -14,7 +14,7 @@ function Search() {
 
     return (
         <div className={styles.container} >
-            <input type="text" placeholder="Search country by name..." onChange={(e)=>setSearch(e.target.value)} className={styles.value}/>
+            <input type="text" placeholder="Search country by name..." onChange={(e)=>setSearch(e.target.value.toLowerCase())} className={styles.value}/>
         </div>
     )
 }

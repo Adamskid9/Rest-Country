@@ -13,13 +13,6 @@ const ErrorPage= lazy(()=>import("./Pages/ErrorPage"));
 
 
 
-// import CountryItem from "./Components/CountryItem"
-// import Detail from "./Components/Detail"
-// import ErrorPage from "./Pages/ErrorPage";
-// import Currency from "./Pages/Currency";
-// import Home from "./Pages/Home";
-
-
 function App() {
  return <div>
 

@@ -6,6 +6,7 @@ import Spinner from "./BigSpinner";
 import { useEffect, useState } from 'react';
 import Footer from './Footer';
 
+
 function Detail() {
    const [persist,setPersist] = useState();
 
@@ -31,6 +32,10 @@ function Detail() {
       },[value])
 
 if (!persist) return <Spinner/>
+
+console.log(persist[0])
+
+console.log(persist);
 
 const {population,timezones:[zones],subregion,area,status,capital:[capita],flags:{png},region,currencies,independent,name:{common}} = persist[0];
 
